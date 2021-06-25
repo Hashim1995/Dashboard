@@ -1,0 +1,167 @@
+
+
+@media  (max-width: 767.98px) {
+    .section-1-main{
+        width: auto !important;
+    }
+    .section-2-wrap main.section-2-main-sub-2{
+        margin-top: 10 !important;
+    }
+    .section-1-wrap{
+        padding: 5px !important;
+        grid-area: 3 / 2 / 3 / 6 !important;
+
+    }
+
+    main.section-1-main::-webkit-scrollbar{
+        width: 4px !important;
+        height: 4px !important;
+    }
+    .section-2-wrap{
+ 
+        padding: 5px !important;
+        grid-area: 5 / 7 / 4 / 2 !important;
+        display: flex;
+        align-items: center;
+         justify-content: center;
+         flex-wrap: wrap;
+    }
+
+    .order-btn{
+        width: 90px !important;
+        height: 30px !important;
+        font-size: 11px !important;
+    }
+    main.section-2-main-sub-1, 
+    main.section-2-main-sub-2{
+        flex-direction: column;
+        margin: 10px 0;
+        width: 100% !important;
+    }
+
+    div.nav{
+        padding: 5px !important;
+    }
+    main.section-1-main header{
+        flex-wrap: wrap;
+    }
+    main.section-1-main header div{
+        margin-top: 8px;
+    }
+    main.section-1-main header h5{
+        font-size: 12px !important;
+    }
+    main.section-1-main header div button{
+        width: 60px !important;
+        height: 25px !important;
+        font-size: 10px !important;
+    }
+    #inner  main  nav  ul  li{
+        font-size: 11px !important;
+        margin-right: 10px !important;
+    }
+    #nav__leftSide{
+        padding: 0 20px !important;
+    }
+    #nav__leftSide  p{
+        font-size: 11px !important;
+    }
+    #nav__rightSide > ul > li svg{
+        height: 20px !important;
+        width: 20px !important;
+    }
+    
+    #nav__rightSide .navbar-search-input{
+        position: absolute;
+        top: 66px;
+        right: -86px !important;
+        width: 97px !important;
+        padding: 10px 30px 10px 10px !important;
+        left: inherit !important;
+    }
+    #nav__rightSide > ul > li:nth-child(2) > form > button{
+        position: absolute;
+        top: 75px;
+        right: -79px !important;
+    }
+
+   
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .section-1-main{
+        width: auto !important;
+    }
+    .section-2-wrap main.section-2-main-sub-2{
+        margin-top: 0 !important;
+    }
+    .section-1-wrap{
+        padding: 15px !important;
+        grid-area: 3 / 2 / 3 / 6 !important;
+
+    }
+    .section-2-wrap{
+        padding: 15px !important;
+        grid-area: 5 / 7 / 4 / 2 !important;
+        display: flex;
+        align-items: center;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         flex-direction: column;
+    }
+    main.section-2-main-sub-1, 
+    main.section-2-main-sub-2{
+        flex-direction: column;
+        margin: 10px 0;
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1249.98px) {
+    #inner-table-tbody-title div{
+        height: 22px;
+        padding: 1px;
+        font-size: 11px;
+    }
+    .section-1-main{
+        width: auto !important;
+    }
+    .section-1-wrap{
+        padding: 5px !important;
+        grid-area: 3 / 2 / 3 / 6 !important;
+
+    }
+    .section-2-wrap{
+        padding: 5px !important;
+        grid-area: 5 / 7 / 4 / 2 !important;
+        display: flex;
+        align-items: center;
+         justify-content: space-between;
+    }
+    .section-2-wrap main.section-2-main-sub-2{
+        margin-top: 0 !important;
+    }
+}
+
+@media  (min-width: 1250px) and (max-width: 1800.98px) {
+    .section-1-wrap{
+        padding: 20px 10px 14px 10px !important; 
+        grid-area: 3 / 2 / 6 / 5 !important;
+    }
+    .section-1-main{
+        width: auto !important;
+    }
+    .section-2-wrap{
+        padding: 20px 10px 14px 10px !important;
+    }
+    #inner-table-tbody-name p,
+    #inner-table-tbody-email,
+    #inner-table-tbody-title,
+    #inner-table-tbody-date,
+    #inner-table-tbody-id
+    {
+        font-size:12px;
+    }
+}
